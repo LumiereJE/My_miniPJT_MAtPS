@@ -5,6 +5,7 @@ export const PersonSelect = styled.div`
     margin: 0 auto 2rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
 > p {
     font-weight: 900;

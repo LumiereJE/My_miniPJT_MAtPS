@@ -17,8 +17,6 @@ export const StyledRadio = styled.div`
     flex-wrap: nowrap;
     gap: 1rem;
 
-   
-    /* border-color: ${(props) => (props.isChecked ? "#fff" : "#d94d4d")};  */
     
     label {
         width: 70px;
