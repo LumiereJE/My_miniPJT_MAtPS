@@ -1,62 +1,51 @@
 import styled from "styled-components";
 
-// export const TimeBox = styled.input`
-//     width: 5rem;
-//     height: 2rem;
-//     text-align: center;
-//     line-height: 30px;
-//     border-radius: 30px;
-//     border: 2px solid #d94d4d;
-//     background-color: #fff;
-//     color: #d94d4d;
-//     font-weight: 900;
-//     font-size: 1.5rem;
-// `;
+
 export const StyledLabel = styled.div`
-    display: flex;
-    align-items: center;
-
-    :hover {
-        cursor: pointer;
-    }
-
-    > span {
-        min-width: fit-content;
-        padding: 0;
-        font-weight: 900;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: -0.02em;
-        color: #d94d4d;
-    }
-`
-
-export const StyledRadio = styled.div`  
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 
-    > label {
+    :hover {
+        cursor: pointer;
+    }
+`
+
+export const StyledRadio = styled.div`  
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+
+   
+    /* border-color: ${(props) => (props.isChecked ? "#fff" : "#d94d4d")};  */
+    
+    label {
         width: 70px;
         height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 10px 20px;
         
+        background-color: #fff;
         border-radius: 30px;
         border: 3px solid #d94d4d;
         box-sizing: border-box;
+        position: relative;
+        
+        background-color: ${(props) => (props.isChecked ? "#d94d4d" : "#fff")};
     }
-    > label > input {
-        /* display: none; */
+   
+    label > input {
+        display: none;
         /* visibility : hidden */
     }
-    > label span {
+    span {
         font-size: 1.2rem;
         font-weight: 900;
         color: #d94d4d;
+        color: ${(props) => (props.isChecked ? "white" : "#d94d4d")};
+        position: absolute;
+        top: 7px;
+        left: 14px;
     }
     
     :hover {
