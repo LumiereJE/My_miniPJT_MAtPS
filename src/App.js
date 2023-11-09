@@ -1,8 +1,8 @@
-import '../src/App.css';
+import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Store from './pages/Store';
-import Reserve from './pages/Reserve';
+import Store from './pages/store/Store';
+import Reserve from './pages/store/Reserve';
 
 
 function App() {

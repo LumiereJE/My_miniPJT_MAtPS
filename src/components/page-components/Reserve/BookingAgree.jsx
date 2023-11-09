@@ -1,4 +1,4 @@
-import checkIcon from "../../images/check.png";
+import checkIcon from "../../../images/check.png";
 import {Container, ConInner, AgreeBox, AgreeTitleBox, AgreeTxt, Check, CheckTitle, ScrollBox, Alert, Button} from "../../style_components/Reserve/Reserve-BookingAgree";
 
 const ReserveBookingAgree = () => {

@@ -1,5 +1,5 @@
 import {Container, Storetitle, CalendarBtn, Calendar, CalendarIcon} from "../../style_components/Store/Store-Reserve";
-import calendarIcon from "../../images/calendar.png";
+import calendarIcon from "../../../images/calendar.png";
 
 const StoreReserve = () => {
     return (

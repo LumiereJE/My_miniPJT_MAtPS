@@ -1,10 +1,10 @@
 import { Container, Title } from "../../style_components/Reserve/Reserve-Common";
 import {PersonSelect, Alert, PersonNum, Number, NumBtn} from "../../style_components/Reserve/Reserve-Person";
 import { useState } from "react";
-import add from "../../images/add.png";
-import add_wh from "../../images/add_wh.png";
-import minus from "../../images/minus.png";
-import minus_wh from "../../images/minus_wh.png";
+import add from "../../../images/add.png";
+import add_wh from "../../../images/add_wh.png";
+import minus from "../../../images/minus.png";
+import minus_wh from "../../../images/minus_wh.png";
 
 const ReservePerson = () => {
     const [minusImg, setMinusImg] = useState(minus_wh);

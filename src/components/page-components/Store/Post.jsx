@@ -1,6 +1,6 @@
 import {Container, TitleBox, PostTitle, More} from "../../style_components/Store/Store-Post";
 import PostBox from "./PostBox";
-import plus from "../../images/add.png";
+import plus from "../../../images/add.png";
 
 const StorePost = () => {
     return (

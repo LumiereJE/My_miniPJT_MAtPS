@@ -1,6 +1,6 @@
 // store page - components들 종합해서 App.js
 import { Container, StoreName, StoreDetail, Bar, WishList } from "../../style_components/Store/Store-Info";
-import wish from '../../images/heart.png';
+import wish from '../../../images/heart.png';
 
 const StoreInfo = () => {
     return (
